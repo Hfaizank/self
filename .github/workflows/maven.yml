@@ -1,6 +1,4 @@
 
-
-
 name: Java CI/CD Pipeline to Tomcat
 
 on:
