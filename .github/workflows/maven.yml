@@ -67,7 +67,7 @@ jobs:
         env:
           SONAR_HOST: ${{ secrets.SONAR_HOST }}
           SONAR_LOGIN: ${{ secrets.SONAR_TOKEN }}
-          run: |
+    run: |
   echo "SonarQube server URL: $SONAR_HOST"
   curl -I $SONAR_HOST
   mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar \
